@@ -1,0 +1,126 @@
+2022-07-12-15:49:57
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: ./
+data_train: MPII
+data_test: mpii_test
+data_range: 1-800/801-810
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+SR_pre_train: ./SR_weights/hazex4_mpii/model/model_best.pt
+Gaze_pre_train: ./Gaze_weights/haze_mpii/model/model_best.pt
+n_blocks: 30
+n_feats: 16
+negval: 0.2
+test_every: 720
+epochs: 500
+batch_size: 50
+self_ensemble: False
+test_only: True
+lr: 1e-05
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*MSE
+skip_threshold: 1000000.0
+save: ./experiment/demo2/
+print_every: 100
+save_results: False
+scale: [2]
+label: ./labels/mpii_label_with_head.pickle
+eye_coord: ./labels/mpii_eye_coor.pickle
+face_coord: ./labels/mpii_label_with_head.pickle
+dual: True
+scale2: 2
+
+2022-07-12-15:50:12
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: ./
+data_train: MPII
+data_test: mpii_test
+data_range: 1-800/801-810
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+SR_pre_train: ./SR_weights/hazex4_mpii/model/model_best.pt
+Gaze_pre_train: ./Gaze_weights/haze_mpii/model/model_best.pt
+n_blocks: 40
+n_feats: 20
+negval: 0.2
+test_every: 720
+epochs: 500
+batch_size: 50
+self_ensemble: False
+test_only: True
+lr: 1e-05
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*MSE
+skip_threshold: 1000000.0
+save: ./experiment/demo2/
+print_every: 100
+save_results: False
+scale: [2, 4]
+label: ./labels/mpii_label_with_head.pickle
+eye_coord: ./labels/mpii_eye_coor.pickle
+face_coord: ./labels/mpii_label_with_head.pickle
+dual: True
+scale2: 4
+
+2022-07-12-15:50:15
+
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+data_dir: ./
+data_train: MPII
+data_test: mpii_test
+data_range: 1-800/801-810
+patch_size: 384
+rgb_range: 255
+n_colors: 3
+no_augment: False
+SR_pre_train: ./SR_weights/hazex4_mpii/model/model_best.pt
+Gaze_pre_train: ./Gaze_weights/haze_mpii/model/model_best.pt
+n_blocks: 40
+n_feats: 20
+negval: 0.2
+test_every: 720
+epochs: 500
+batch_size: 50
+self_ensemble: False
+test_only: True
+lr: 1e-05
+eta_min: 1e-07
+beta1: 0.9
+beta2: 0.999
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*MSE
+skip_threshold: 1000000.0
+save: ./experiment/demo2/
+print_every: 100
+save_results: False
+scale: [2, 4]
+label: ./labels/mpii_label_with_head.pickle
+eye_coord: ./labels/mpii_eye_coor.pickle
+face_coord: ./labels/mpii_label_with_head.pickle
+dual: True
+scale2: 4
+

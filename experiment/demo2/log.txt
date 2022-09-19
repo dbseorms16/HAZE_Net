@@ -1,0 +1,7 @@
+The number of parameters is 12.15M
+The number of parameters is 57.33M
+
+Evaluation:
+[mpii_test]	Angual error: 5.56 (Best: 5.56 @epoch 1), PSNR: 0.00, SSIM: 0.77673
+Total time: 716.34s
+
